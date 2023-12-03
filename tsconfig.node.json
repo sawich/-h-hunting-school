@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "composite": true
+  },
+  "include": [".eslintrc.*", "vite.config.*"]
+}
